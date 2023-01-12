@@ -481,8 +481,8 @@ Date:    May 09 2019
       </joinstore>
     </checkitem>
     <checkitem desc="kernel version which note 0002723570 recommends" id="0002597913">
-      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,3,'0') &gt;= '110'</compliant>
-      <noncompliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,3,'0') &lt; '110'</noncompliant>
+      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,4,'0') &gt;= '0110'</compliant>
+      <noncompliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,4,'0') &lt; '0110'</noncompliant>
       <joinstore name="SAP_KERNEL" no_data_found="Yes">
         <joincompliant>NAME = 'KERN_REL' and VALUE = '753_REL'</joincompliant>
         <joinnoncompliant>NAME = 'KERN_REL' and VALUE = '753_REL'</joinnoncompliant>

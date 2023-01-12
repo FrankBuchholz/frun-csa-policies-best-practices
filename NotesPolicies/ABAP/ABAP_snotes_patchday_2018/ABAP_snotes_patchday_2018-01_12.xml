@@ -1234,40 +1234,40 @@ Date Dec 12 2018
       </joinstore>
     </checkitem>
     <checkitem desc="kernel version which note 0002671160 recommends" id="0002671160">
-      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,3,'0') &gt;= '625'</compliant>
-      <noncompliant>NAME = 'KERN_PATCHLEVEL'and lpad(VALUE,3,'0') &lt; '625'</noncompliant>
+      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,4,'0') &gt;= '0625'</compliant>
+      <noncompliant>NAME = 'KERN_PATCHLEVEL'and lpad(VALUE,4,'0') &lt; '0625'</noncompliant>
       <joinstore name="SAP_KERNEL" no_data_found="Yes">
         <joincompliant>NAME = 'KERN_REL' and VALUE = '722_REL'</joincompliant>
         <joinnoncompliant>NAME = 'KERN_REL' and VALUE = '722_REL'</joinnoncompliant>
       </joinstore>
     </checkitem>
     <checkitem desc="kernel version which note 0002671160 recommends" id="0002671160">
-      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,3,'0') &gt;= '810'</compliant>
-      <noncompliant>NAME = 'KERN_PATCHLEVEL'and lpad(VALUE,3,'0') &lt; '810'</noncompliant>
+      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,4,'0') &gt;= '0810'</compliant>
+      <noncompliant>NAME = 'KERN_PATCHLEVEL'and lpad(VALUE,4,'0') &lt; '0810'</noncompliant>
       <joinstore name="SAP_KERNEL" no_data_found="Yes">
         <joincompliant>NAME = 'KERN_REL' and VALUE = '745_REL'</joincompliant>
         <joinnoncompliant>NAME = 'KERN_REL' and VALUE = '745_REL'</joinnoncompliant>
       </joinstore>
     </checkitem>
     <checkitem desc="kernel version which note 0002671160 recommends" id="0002671160">
-      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,3,'0') &gt;= '521'</compliant>
-      <noncompliant>NAME = 'KERN_PATCHLEVEL'and lpad(VALUE,3,'0') &lt; '521'</noncompliant>
+      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,4,'0') &gt;= '0521'</compliant>
+      <noncompliant>NAME = 'KERN_PATCHLEVEL'and lpad(VALUE,4,'0') &lt; '0521'</noncompliant>
       <joinstore name="SAP_KERNEL" no_data_found="Yes">
         <joincompliant>NAME = 'KERN_REL' and VALUE = '749_REL'</joincompliant>
         <joinnoncompliant>NAME = 'KERN_REL' and VALUE = '749_REL'</joinnoncompliant>
       </joinstore>
     </checkitem>
     <checkitem desc="kernel version which note 0002671160 recommends" id="0002671160">
-      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,3,'0') &gt;= '220'</compliant>
-      <noncompliant>NAME = 'KERN_PATCHLEVEL'and lpad(VALUE,3,'0') &lt; '220'</noncompliant>
+      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,4,'0') &gt;= '0220'</compliant>
+      <noncompliant>NAME = 'KERN_PATCHLEVEL'and lpad(VALUE,4,'0') &lt; '0220'</noncompliant>
       <joinstore name="SAP_KERNEL" no_data_found="Yes">
         <joincompliant>NAME = 'KERN_REL' and VALUE = '753_REL'</joincompliant>
         <joinnoncompliant>NAME = 'KERN_REL' and VALUE = '753_REL'</joinnoncompliant>
       </joinstore>
     </checkitem>
     <checkitem desc="kernel version which note 0002671160 recommends" id="0002671160">
-      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,3,'0') &gt;= '011'</compliant>
-      <noncompliant>NAME = 'KERN_PATCHLEVEL'and lpad(VALUE,3,'0') &lt; '011'</noncompliant>
+      <compliant>NAME = 'KERN_PATCHLEVEL' and lpad(VALUE,4,'0') &gt;= '0011'</compliant>
+      <noncompliant>NAME = 'KERN_PATCHLEVEL'and lpad(VALUE,4,'0') &lt; '0011'</noncompliant>
       <joinstore name="SAP_KERNEL" no_data_found="Yes">
         <joincompliant>NAME = 'KERN_REL' and VALUE = '773_REL'</joincompliant>
         <joinnoncompliant>NAME = 'KERN_REL' and VALUE = '773_REL'</joinnoncompliant>
